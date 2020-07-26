@@ -77,7 +77,8 @@
                             </td>
                             <td style="CURSOR: hand; HEIGHT: 22px" align="center" width="17%">${pro.is_hot==1?"是":"否"}
                             </td>
-                            <td align="center" style="HEIGHT: 22px"><a href="${ pageContext.request.contextPath }/admin/product/edit.jsp">
+                            <td align="center" style="HEIGHT: 22px">
+                                <a href="${ pageContext.request.contextPath }/adminProductEdit?pid=${pro.pid}">
                                 <img src="${pageContext.request.contextPath}/images/i_edit.gif"
                                      border="0" style="CURSOR: hand">
                             </a>

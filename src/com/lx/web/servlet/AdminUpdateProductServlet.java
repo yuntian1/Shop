@@ -2,6 +2,7 @@ package com.lx.web.servlet;
 
 import com.lx.doman.Category;
 import com.lx.doman.Product;
+import com.lx.doman.ProductVo;
 import com.lx.service.AdminService;
 import com.lx.utils.BeanFactory;
 import com.lx.utils.CommonsUtils;
@@ -18,14 +19,18 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.*;
-import java.util.*;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Date;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
-@WebServlet("/adminAddProduct")
-public class AdminAddProductServlet extends HttpServlet {
+@WebServlet("/adminUpdateProduct")
+public class AdminUpdateProductServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
-        Map<String,Object> map = new HashMap<String,Object>();
-        Product product = new Product();
+        Map<String, Object> map = new HashMap<String, Object>();
+        ProductVo product = new ProductVo();
         //创建磁盘文件项工厂
         DiskFileItemFactory factory = new DiskFileItemFactory();
         //创建文件上核心对象
@@ -34,57 +39,51 @@ public class AdminAddProductServlet extends HttpServlet {
         try {
             List<FileItem> fileItems = upload.parseRequest(request);
             //遍历文件项
-            for(FileItem item:fileItems){
+            for (FileItem item : fileItems) {
                 //判断是否是普通表单项
                 boolean formField = item.isFormField();
-                if(formField){
+                if (formField) {
                     //是普通表单项
                     String fieldName = item.getFieldName();
                     String fieldValue = item.getString("UTF-8");
                     //将普通表单提交的数据放到map中
-                    map.put(fieldName,fieldValue);
-                }else{
-                    //是文件上传项
-                    String fileName = item.getName();
-                    InputStream in = item.getInputStream();
+                    map.put(fieldName, fieldValue);
+                } else {
+                    ////是文件上传项
+                    //String fileName = item.getName();
+                    //InputStream in = item.getInputStream();
+                    ////String path = this.getServletContext().getRealPath("upload");
+                    //File uploadPath = new File(this.getServletContext().getRealPath("upload"));
+                    //if(!uploadPath.exists()){
+                    //    uploadPath.mkdir();
+                    //}
                     //String path = this.getServletContext().getRealPath("upload");
-                    File uploadPath = new File(this.getServletContext().getRealPath("upload"));
-                    if(!uploadPath.exists()){
-                        uploadPath.mkdir();
-                    }
-                    String path = this.getServletContext().getRealPath("upload");
-                    OutputStream out = new FileOutputStream(path+"/"+fileName);
-                    IOUtils.copy(in, out);
-                    item.delete();
-                    map.put("pimage","upload/"+fileName);
+                    //OutputStream out = new FileOutputStream(path+"/"+fileName);
+                    //IOUtils.copy(in, out);
+                    //item.delete();
+                    //map.put("pimage","upload/"+fileName);
+                    return;
                 }
 
             }
-            BeanUtils.populate(product,map);
-            //判断是否封装完全
-            //private String pid;
-            product.setPid(CommonsUtils.getUUID());
-            //private Date pdate;
+            try {
+                BeanUtils.populate(product, map);
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            } catch (InvocationTargetException e) {
+                e.printStackTrace();
+            }
             product.setPdate(new Date());
-            //private int pflag;
-            product.setPflag(0);
-            //cid
-            Category category = new Category();
-            category.setCid(map.get("cid").toString());
-            product.setCategory(category);
             AdminService service = (AdminService) BeanFactory.getBean("adminService");
-            service.addProduct(product);
+            service.updateProduct(product);
+            response.sendRedirect(request.getContextPath() + "/adminShowProduct");
 
-            response.sendRedirect(request.getContextPath()+"/adminShowProduct");
 
-        } catch (Exception e) {
+        } catch (FileUploadException e) {
             e.printStackTrace();
         }
-
-
     }
-
-    protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
         doGet(request, response);
 
