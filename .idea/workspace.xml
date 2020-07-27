@@ -6,44 +6,44 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0ac279d9-dcdc-47fc-80f9-13f9d0adad9d" name="Default Changelist" comment="阳光商城">
-      <change afterPath="$PROJECT_DIR$/src/com/lx/doman/ProductVo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminAddCategoryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminCategoryListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminDelCategoryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminEditCategoryServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminEditCategoryUiServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminProductEditServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminUpdateProductServlet.java" afterDir="false" />
+    <list default="true" id="0ac279d9-dcdc-47fc-80f9-13f9d0adad9d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/doman/ProductVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminAddCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminCategoryListServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminDelCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminEditCategoryServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminEditCategoryUiServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminProductEditServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminUpdateProductServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/upload/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/upload/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/upload/timg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/upload/timg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lx/web/filter/EncodingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/SearchWordServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/dao/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/impl/AdminServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminAddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminAddProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/admin/category/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/admin/category/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/admin/category/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/admin/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/admin/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/admin/product/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/admin/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/admin/product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/image/My97DatePicker.htm" beforeDir="false" afterPath="$PROJECT_DIR$/out/image/My97DatePicker.htm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/image/common.css" beforeDir="false" afterPath="$PROJECT_DIR$/out/image/common.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/upload/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminAddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminAddProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/dao/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/AdminAddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/AdminAddProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/add.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/category/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/category/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/left.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/left.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/product/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/image/My97DatePicker.htm" beforeDir="false" afterPath="$PROJECT_DIR$/web/image/My97DatePicker.htm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/filter/UserLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/filter/UserLoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lx/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/dao/ProductDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lx/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lx/web/filter/UserLoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/web/filter/UserLoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lx/web/servlet/ProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/ProductServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/lx/web/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/filter/UserLoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/filter/UserLoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/UserServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/product_info.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/product_info.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,100 +64,85 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lx/service/impl/AdminServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/web/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="128" selection-start-line="128" selection-end-line="128" />
+            <state relative-caret-position="1203">
+              <caret line="207" column="162" lean-forward="true" selection-start-line="207" selection-start-column="162" selection-end-line="207" selection-end-column="162" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/category/edit.jsp">
+        <entry file="file://$PROJECT_DIR$/web/header.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="18" column="8" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminEditCategoryServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="81">
-              <caret line="291" selection-start-line="291" selection-end-line="291" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="126" selection-start-line="126" selection-end-line="126" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lx/utils/BeanFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lx/service/AdminService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="35" column="11" selection-start-line="35" selection-start-column="11" selection-end-line="35" selection-end-column="11" />
+            <state relative-caret-position="178">
+              <caret line="77" column="49" lean-forward="true" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="59" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/category/list.jsp">
+        <entry file="file://$PROJECT_DIR$/web/order_info.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="54" column="110" lean-forward="true" selection-start-line="54" selection-start-column="110" selection-end-line="54" selection-end-column="110" />
-              <folding>
-                <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#td#0;n#tr#2;n#TBODY#0;n#table#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
+            <state relative-caret-position="-1452" />
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminEditCategoryUiServlet.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lx/service/ProductService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
+            <state relative-caret-position="948">
+              <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/lx/dao/AdminDao.java">
+        <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/ProductServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-191">
-              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            <state relative-caret-position="147">
+              <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="486">
+              <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/BaseServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/lx/dao/ProductDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="442">
+              <caret line="130" column="91" lean-forward="true" selection-start-line="130" selection-start-column="91" selection-end-line="130" selection-end-column="91" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,7 +166,6 @@
     <findStrings>
       <find>index.jsp</find>
       <find>col-</find>
-      <find>col-md-2</find>
       <find>active</find>
       <find>li.active</find>
       <find>disabled</find>
@@ -201,6 +185,9 @@
       <find>.pagination</find>
       <find>className=&amp;#39</find>
       <find>add</find>
+      <find>col-md-2</find>
+      <find>row</find>
+      <find>.row</find>
     </findStrings>
     <replaceStrings>
       <replace>className=/&amp;#39</replace>
@@ -214,22 +201,13 @@
     </option>
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/lx/doman/Order.java" />
-        <option value="$PROJECT_DIR$/src/com/lx/utils/PaymentUtil.java" />
-        <option value="$PROJECT_DIR$/src/merchantInfo.properties" />
-        <option value="$PROJECT_DIR$/web/order_info.jsp" />
-        <option value="$PROJECT_DIR$/src/com/lx/service/ProductService.java" />
-        <option value="$PROJECT_DIR$/web/order_list.jsp" />
-        <option value="$PROJECT_DIR$/src/com/lx/dao/ProductDao.java" />
-        <option value="$PROJECT_DIR$/src/com/lx/web/filter/UserLoginFilter.java" />
-        <option value="$PROJECT_DIR$/src/com/lx/web/servlet/UserServlet.java" />
-        <option value="$PROJECT_DIR$/web/header.jsp" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/web/admin/product/add.jsp" />
         <option value="$PROJECT_DIR$/src/com/lx/doman/Product.java" />
         <option value="$PROJECT_DIR$/web/js/popup_layer.js" />
         <option value="$PROJECT_DIR$/web/admin/order/list.jsp" />
@@ -241,7 +219,6 @@
         <option value="$PROJECT_DIR$/src/com/lx/web/servlet/CallbackServlet.java" />
         <option value="$PROJECT_DIR$/web/product_list.jsp" />
         <option value="$PROJECT_DIR$/web/new.jsp" />
-        <option value="$PROJECT_DIR$/src/com/lx/web/servlet/ProductServlet.java" />
         <option value="$PROJECT_DIR$/src/com/lx/web/servlet/AdminShowProductServlet.java" />
         <option value="$PROJECT_DIR$/src/com/lx/web/servlet/DelProductServlet.java" />
         <option value="$PROJECT_DIR$/src/com/lx/web/servlet/AdminServlet.java" />
@@ -269,6 +246,19 @@
         <option value="$PROJECT_DIR$/src/com/lx/web/servlet/AdminEditCategoryServlet.java" />
         <option value="$PROJECT_DIR$/web/admin/category/edit.jsp" />
         <option value="$PROJECT_DIR$/src/com/lx/dao/AdminDao.java" />
+        <option value="$PROJECT_DIR$/src/com/lx/web/filter/UserLoginFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/lx/web/filter/encodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/com/lx/web/filter/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/web/login.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lx/web/servlet/UserServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/register.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lx/web/servlet/SearchWordServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/lx/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/web/product_info.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lx/dao/ProductDao.java" />
+        <option value="$PROJECT_DIR$/web/header.jsp" />
+        <option value="$PROJECT_DIR$/src/com/lx/web/servlet/ProductServlet.java" />
       </list>
     </option>
   </component>
@@ -283,10 +273,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="485" />
-    <option name="y" value="42" />
+    <option name="x" value="247" />
+    <option name="y" value="48" />
     <option name="width" value="1170" />
-    <option name="height" value="940" />
+    <option name="height" value="932" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -294,6 +284,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -336,22 +327,7 @@
               <item name="LxShop" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lx" type="462c0819:PsiDirectoryNode" />
-              <item name="doman" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LxShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lx" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LxShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lx" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LxShop" type="b2602c69:ProjectViewProjectNode" />
@@ -384,40 +360,25 @@
               <item name="LxShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="LxShop" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LxShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="LxShop" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="category" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="LxShop" type="b2602c69:ProjectViewProjectNode" />
               <item name="LxShop" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LxShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="LxShop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="LxShop" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="products" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -450,11 +411,11 @@
       <recent name="com.lx.doman" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\ideal\LxShop\web" />
       <recent name="F:\ideal\LxShop\web\WEB-INF\lib" />
       <recent name="F:\ideal\LxShop\web\images" />
       <recent name="F:\ideal\LxShop\web\js" />
       <recent name="F:\ideal\LxShop\web\css" />
-      <recent name="F:\ideal\LxShop\web\admin" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -639,12 +600,22 @@
       <workItem from="1595565161869" duration="5722000" />
       <workItem from="1595576522362" duration="8518000" />
       <workItem from="1595638111640" duration="25781000" />
-      <workItem from="1595725567811" duration="30088000" />
+      <workItem from="1595725567811" duration="37104000" />
+      <workItem from="1595773216121" duration="1647000" />
+      <workItem from="1595812195169" duration="27264000" />
     </task>
+    <task id="LOCAL-00001" summary="阳光商城">
+      <created>1595765505483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1595765505483</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="450198000" />
+    <option name="totallyTimeSpent" value="486125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -665,13 +636,13 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.33856502" side_tool="true" weight="0.19946092" />
-      <window_info id="Web" order="6" sideWeight="0.34519574" side_tool="true" weight="0.28908357" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.6548043" visible="true" weight="0.23584905" />
+      <window_info id="Web" order="6" sideWeight="0.3469388" side_tool="true" weight="0.53103447" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.6530612" visible="true" weight="0.3180593" />
       <window_info id="Structure" order="8" sideWeight="0.2601156" weight="0.3301887" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6819407" weight="0.16793893" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6819407" weight="0.5114504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977098" />
@@ -682,9 +653,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49865228" weight="0.32977098" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32977098" />
-      <window_info anchor="bottom" id="JRebel Executor" order="14" sideWeight="0.7675202" visible="true" weight="0.2" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" sideWeight="0.7675202" weight="0.6381679" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32977098" />
-      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4414832" weight="0.81374043" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4414832" weight="0.43816793" />
       <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.22921348" side_tool="true" weight="0.24885496" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -704,13 +675,13 @@
       <window_info id="Capture Tool" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" sideWeight="0.33856502" side_tool="true" weight="0.19946092" />
-      <window_info id="Web" order="6" sideWeight="0.34503818" side_tool="true" weight="0.26954177" />
-      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.6549618" visible="true" weight="0.2897574" />
+      <window_info id="Web" order="6" sideWeight="0.3469388" side_tool="true" weight="0.53103447" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" sideWeight="0.6530612" visible="true" weight="0.3180593" />
       <window_info id="Structure" order="8" sideWeight="0.2601156" weight="0.3301887" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6819407" weight="0.4854962" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6819407" weight="0.5114504" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32977098" />
@@ -721,9 +692,9 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" sideWeight="0.49865228" weight="0.32977098" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32977098" />
-      <window_info anchor="bottom" id="JRebel Executor" order="14" sideWeight="0.7675202" visible="true" weight="0.34351146" />
+      <window_info anchor="bottom" id="JRebel Executor" order="14" sideWeight="0.7675202" weight="0.6381679" />
       <window_info anchor="bottom" id="Problems" order="15" weight="0.32977098" />
-      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4414832" weight="0.81374043" />
+      <window_info anchor="bottom" id="Messages" order="16" sideWeight="0.4414832" weight="0.43816793" />
       <window_info anchor="bottom" id="JRebel Console" order="17" sideWeight="0.22921348" side_tool="true" weight="0.24885496" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -776,193 +747,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar!/com/mchange/v2/c3p0/impl/AbstractPoolBackedDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="85" selection-start-line="85" selection-end-line="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/AbstractQueryRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="65" selection-start-line="65" selection-end-line="65" />
-          <folding>
-            <element signature="e#995#996#0" expanded="true" />
-            <element signature="e#1023#1024#0" expanded="true" />
-            <element signature="e#1211#1212#0" expanded="true" />
-            <element signature="e#1241#1242#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/QueryRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="120" selection-start-line="120" selection-end-line="120" />
-          <folding>
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/tomcat-websocket.jar!/org/apache/tomcat/websocket/server/WsFilter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/core/StandardWrapperValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="152" selection-start-line="152" selection-end-line="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/core/StandardContextValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/authenticator/AuthenticatorBase.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="241" selection-start-line="241" selection-end-line="241" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/core/StandardHostValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/tomcat-coyote.jar!/org/apache/tomcat/util/net/NioEndpoint.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="394" selection-start-line="394" selection-end-line="394" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/tomcat-coyote.jar!/org/apache/coyote/AbstractProtocol.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="685" selection-start-line="685" selection-end-line="685" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/tomcat-coyote.jar!/org/apache/coyote/AbstractProcessorLight.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="44" selection-start-line="44" selection-end-line="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/tomcat-coyote.jar!/org/apache/coyote/http11/Http11Processor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="224" selection-start-line="224" selection-end-line="224" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/connector/CoyoteAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="335" selection-start-line="335" selection-end-line="335" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/core/StandardEngineValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/valves/AbstractAccessLogValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="172" selection-start-line="172" selection-end-line="172" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://G:/tomcat/apache-tomcat-9.0.35/lib/catalina.jar!/org/apache/catalina/valves/ErrorReportValve.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lx/doman/Product.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="23" selection-start-line="5" selection-end-line="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lx/doman/ProductVo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1488">
-          <caret line="25" column="28" selection-start-line="25" selection-start-column="28" selection-end-line="25" selection-end-column="28" />
-          <folding>
-            <element signature="e#500#501#0" expanded="true" />
-            <element signature="e#538#539#0" expanded="true" />
-            <element signature="e#568#569#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#628#629#0" expanded="true" />
-            <element signature="e#670#671#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#743#744#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#882#883#0" expanded="true" />
-            <element signature="e#919#920#0" expanded="true" />
-            <element signature="e#952#953#0" expanded="true" />
-            <element signature="e#1004#1005#0" expanded="true" />
-            <element signature="e#1048#1049#0" expanded="true" />
-            <element signature="e#1081#1082#0" expanded="true" />
-            <element signature="e#1110#1111#0" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1190#1191#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-            <element signature="e#1248#1249#0" expanded="true" />
-            <element signature="e#1288#1289#0" expanded="true" />
-            <element signature="e#1322#1323#0" expanded="true" />
-            <element signature="e#1352#1353#0" expanded="true" />
-            <element signature="e#1381#1382#0" expanded="true" />
-            <element signature="e#1422#1423#0" expanded="true" />
-            <element signature="e#1458#1459#0" expanded="true" />
-            <element signature="e#1490#1491#0" expanded="true" />
-            <element signature="e#1518#1519#0" expanded="true" />
-            <element signature="e#1560#1561#0" expanded="true" />
-            <element signature="e#1594#1595#0" expanded="true" />
-            <element signature="e#1623#1624#0" expanded="true" />
-            <element signature="e#1651#1652#0" expanded="true" />
-            <element signature="e#1690#1691#0" expanded="true" />
-            <element signature="e#1724#1725#0" expanded="true" />
-            <element signature="e#1754#1755#0" expanded="true" />
-            <element signature="e#1780#1781#0" expanded="true" />
-            <element signature="e#1818#1819#0" expanded="true" />
-            <element signature="e#1848#1849#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/upload/3.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/DelProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/upload/timg2.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -973,40 +757,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/cart.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1386" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/order_list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1666" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/order_info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-264" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/out/upload/0.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lx/dao/ProductDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-648">
-          <caret line="61" column="22" selection-start-line="61" selection-start-column="22" selection-end-line="61" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminAddProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="75" column="40" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="75" selection-end-column="40" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminProductEditServlet.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1033,13 +790,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="27" column="91" selection-start-line="27" selection-start-column="91" selection-end-line="27" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lx/service/ProductService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="84" column="5" lean-forward="true" selection-start-line="84" selection-start-column="5" selection-end-line="84" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1074,16 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/ProductServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5786">
-          <caret line="68" column="24" lean-forward="true" selection-start-line="68" selection-start-column="24" selection-end-line="68" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminAddCategoryServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -1098,17 +838,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminDelCategoryServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/category/list.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="54" column="110" lean-forward="true" selection-start-line="54" selection-start-column="110" selection-end-line="54" selection-end-column="110" />
+          <caret line="54" column="110" selection-start-line="54" selection-start-column="110" selection-end-line="54" selection-end-column="110" />
           <folding>
             <element signature="n#style#0;n#td#2;n#tr#1;n#table#0;n#td#0;n#tr#2;n#TBODY#0;n#table#0;n#body#0;n#HTML#0;n#!!top" expanded="true" />
           </folding>
@@ -1118,7 +851,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminEditCategoryUiServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="33" />
         </state>
       </provider>
     </entry>
@@ -1177,10 +910,210 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1254">
+          <caret line="57" column="30" selection-start-line="57" selection-start-column="30" selection-end-line="57" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/UserServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="29" column="19" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/filter/UserLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/filter/EncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminDelCategoryServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/CheckUsernameServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="17" column="58" lean-forward="true" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="59" column="20" lean-forward="true" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6589" column="1" lean-forward="true" selection-start-line="6589" selection-start-column="1" selection-end-line="6589" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/RegisterServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-616">
+          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/AdminAddProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="932">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/SearchWordServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="25" column="35" lean-forward="true" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/platform-impl.jar!/resources/html5-schema/html5/common.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="189" column="18" selection-start-line="189" selection-start-column="18" selection-end-line="189" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/order/list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-330" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1203">
+          <caret line="207" column="162" lean-forward="true" selection-start-line="207" selection-start-column="162" selection-end-line="207" selection-end-column="162" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lx/dao/AdminDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-191">
-          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        <state relative-caret-position="207">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/utils/DataSourceUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/c3p0-config.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/BaseServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/order_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1452" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-264" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/cart.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1584" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/product_info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="66" column="77" selection-start-line="66" selection-start-column="77" selection-end-line="66" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/dao/ProductDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="130" column="91" lean-forward="true" selection-start-line="130" selection-start-column="91" selection-end-line="130" selection-end-column="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="77" column="49" lean-forward="true" selection-start-line="77" selection-start-column="49" selection-end-line="77" selection-end-column="59" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#form#0;n#div#1;n#div#0;n#nav#0;n#div#1;n#body#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="948">
+          <caret line="196" column="22" selection-start-line="196" selection-start-column="22" selection-end-line="196" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/lx/web/servlet/ProductServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="44" column="54" lean-forward="true" selection-start-line="44" selection-start-column="54" selection-end-line="44" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

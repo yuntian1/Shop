@@ -38,6 +38,18 @@ public class ProductServlet extends BaseServlet {
 //
 //
 //    }
+
+    //前台搜索
+    public void productSearch(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        //获得商品名称
+        String pname = req.getParameter("searchname");
+        ProductService service = new ProductService();
+        //查询名为pname的商品
+        Product product = service.findProductByPname(pname);
+        req.setAttribute("product", product);
+        req.getRequestDispatcher("/product_info.jsp").forward(req, resp);
+    }
+
 public void myOrders(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
     //判断用户是否登陆
     HttpSession session = req.getSession();

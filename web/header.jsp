@@ -38,7 +38,7 @@
 		<ol class="list-inline">
 			<c:if test="${empty user}">
 				<li><a href="login.jsp">登录</a></li>
-				<li><a href="register.jsp">注册</a></li>
+				<li><a href="${pageContext.request.contextPath}/register.jsp">注册</a></li>
 			</c:if>
 			<c:if test="${!empty user}">
 				<li style="color:red">欢迎您，${user.username }</li>
@@ -72,12 +72,57 @@
 <%--					</c:forEach>--%>
 
 				</ul>
-				<form class="navbar-form navbar-right" role="search">
-					<div class="form-group">
-						<input type="text" class="form-control" placeholder="Search">
+				<form action="${pageContext.request.contextPath}/product" class="navbar-form navbar-right" role="search">
+					<div class="form-group" style="position: relative;">
+                        <input type="hidden" name="method" value="productSearch">
+						<input id="search" name="searchname" type="text" class="form-control" placeholder="Search" onkeyup="searchWord(this)">
+                        <div id="showDiv" style="display:none;position:absolute; z-index:1000; background-color:#fff;width:206px;border:1px solid #ccc;"></div>
 					</div>
 					<button type="submit" class="btn btn-default">Submit</button>
 				</form>
+<%--                完成异步搜索功能--%>
+                <script type="text/javascript">
+                    function overFn(obj) {
+                    $(obj).css("background","#DBEAF9");
+                    }
+                    function outFn(obj) {
+                        $(obj).css("background","#fff");
+
+                    }
+                    function clickFn(obj) {
+                        // 这两种方式都行
+                        $("#search").val($(obj).html());
+                        //突然这种方法不好使了，奇怪，难道之前试的时候没刷新过来？
+                        // $("#search").append($(obj).val());
+                        $("#showDiv").css("display","none");
+                    }
+                    function searchWord(obj) {
+                        // 1.获得输入框的输入内容
+                        var word = $(obj).val();
+                        var content = "";
+                        $("#showDiv").html("");
+                        $.post(
+                            "${pageContext.request.contextPath}/searchWord",
+                            {"word":word},
+                            function (data) {
+                                // 3.将返回的商品的名称显示在showDiv中
+                                if(data.length>0){
+                                    for(var i=0;i<data.length;i++){
+
+                                        content+="<div style='padding:5px;cursor: pointer' onclick='clickFn(this)' onmouseover='overFn(this)' onmouseout='outFn(this)'>"+data[i]+"</div>";
+                                    }
+                                    $("#showDiv").append(content);
+                                    $("#showDiv").css("display","block");
+                                }
+
+                            },
+                            "json"
+                        );
+
+                        // 2.根据输入框的内容去数据库中模糊查询list<product>
+                    }
+                </script>
+
 			</div>
 		</div>
 

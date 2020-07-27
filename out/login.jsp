@@ -52,7 +52,11 @@ font {
 			<div class="col-md-5">
 				<div style="width: 440px; border: 1px solid #E7E7E7; padding: 20px 0 20px 30px; border-radius: 5px; margin-top: 60px; background: #fff;">
 					<font>会员登录</font>USER LOGIN
-					<div>&nbsp;&nbsp;</div>
+					<div>&nbsp;
+						<div>
+							<span style="color: red">${loginInfo }</span>
+						</div>
+					</div>
 					<form class="form-horizontal"  method="post" action="${pageContext.request.contextPath }/user?method=login">
 						<input type="hidden" name="method" value="login">
 						<div class="form-group">

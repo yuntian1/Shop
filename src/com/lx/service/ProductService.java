@@ -3,6 +3,7 @@ package com.lx.service;
 import com.lx.dao.ProductDao;
 import com.lx.doman.*;
 import com.lx.utils.DataSourceUtils;
+import com.mysql.cj.x.protobuf.MysqlxExpr;
 
 import java.sql.SQLException;
 import java.util.List;
@@ -103,12 +104,12 @@ public class ProductService {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return category ;
+        return category;
     }
 
     //提交订单将数据存到数据库
-    public void submitOrder(Order order)  {
-     ProductDao dao = new ProductDao();
+    public void submitOrder(Order order) {
+        ProductDao dao = new ProductDao();
         try {
             //开启事务
             DataSourceUtils.startTransaction();
@@ -123,7 +124,7 @@ public class ProductService {
                 ex.printStackTrace();
             }
             e.printStackTrace();
-        }finally{
+        } finally {
             try {
                 DataSourceUtils.commitAndRelease();
             } catch (SQLException e) {
@@ -133,7 +134,7 @@ public class ProductService {
     }
 
     public void updateOrderAddr(Order order) {
-        ProductDao dao =new ProductDao();
+        ProductDao dao = new ProductDao();
         try {
             dao.updateOrderAddr(order);
         } catch (SQLException e) {
@@ -166,11 +167,34 @@ public class ProductService {
         ProductDao dao = new ProductDao();
         List<Map<String, Object>> mapList = null;
         try {
-            mapList =dao.findAllOrderItemByOid(oid);
+            mapList = dao.findAllOrderItemByOid(oid);
         } catch (SQLException e) {
             e.printStackTrace();
         }
         return mapList;
+    }
+
+    //根据关键字查询商品
+    public List<Object> findProductByWord(String word) {
+    ProductDao dao = new ProductDao();
+        List<Object> productList= null;
+        try {
+            productList = dao.findProductByWord(word);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return  productList;
+    }
+
+    public Product findProductByPname(String pname) {
+        ProductDao dao = new ProductDao();
+        Product product = null;
+        try {
+            product = dao.findProductByPname(pname);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return product;
     }
 }
 

@@ -7,10 +7,7 @@ import com.lx.doman.Product;
 import com.lx.utils.DataSourceUtils;
 import org.apache.catalina.tribes.group.interceptors.OrderInterceptor;
 import org.apache.commons.dbutils.QueryRunner;
-import org.apache.commons.dbutils.handlers.BeanHandler;
-import org.apache.commons.dbutils.handlers.BeanListHandler;
-import org.apache.commons.dbutils.handlers.MapListHandler;
-import org.apache.commons.dbutils.handlers.ScalarHandler;
+import org.apache.commons.dbutils.handlers.*;
 
 import java.sql.Connection;
 import java.sql.SQLException;
@@ -119,6 +116,20 @@ public class ProductDao {
         String sql = "select i.count,i.subtotal,p.pimage,p.pname,p.shop_price from orderItem i,product p where i.pid=p.pid and oid=?";
         List<Map<String, Object>> mapList = runner.query(sql, new MapListHandler(), oid);
         return mapList;
+    }
+
+    public List<Object> findProductByWord(String word) throws SQLException {
+        QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+        String sql = "select * from product where pname like ? limit 0,8";
+        List<Object> productList= (List<Object>) runner.query(sql, new ColumnListHandler("pname"),"%"+word+"%");
+        return productList;
+    }
+
+    public Product findProductByPname(String pname) throws SQLException {
+        QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+        String sql = "select * from product where pname=?";
+        Product product= runner.query(sql, new BeanHandler<Product>(Product.class), pname);
+        return product;
     }
 }
 

@@ -6,12 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>会员注册</title>
 <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-	<script src="js/jquery-1.11.3.min.js" type="text/javascript"></script>
-	<script src="js/jquery.validate.min.js" type="text/javascript"></script>
-	<script src="js/messages_zh.js" type="text/javascript"></script>
-<script src="js/bootstrap.min.js" type="text/javascript"></script>
-<!-- 引入自定义css文件 style.css -->
-<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- 引入自定义css文件 style.css -->
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css" type="text/css" />
+    <script src="${pageContext.request.contextPath}/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/js/messages_zh.js" type="text/javascript"></script>
+    <script src="${pageContext.request.contextPath}/js/bootstrap.min.js" type="text/javascript"></script>
 
 <style>
 body {
@@ -37,6 +37,9 @@ font {
 
 <script type="text/javascript">
 
+    $.validator.setDefaults({
+        ignore: ':hidden',
+    });
 	//自定义校验规则
 	$.validator.addMethod(
 			//规则名称
@@ -66,6 +69,9 @@ font {
 	)
 	$(function () {
 		$("#myform").validate({
+            onfocusout: function(element){
+                $(element).valid();
+            },
 			rules:{
 				"username":{
 					"required":true,
@@ -109,20 +115,27 @@ font {
 
 			}
 		});
+        $("#button").click(function() {
+            //registered为表单id。所有数据符合校验要求时，isValid 返回true。
+            var isValid = $("#myform").form('validate');
+            if (isValid) {
+                $("#button").attr("type", "submit");
+            }
+        });
+
 	});
-</script>
+
+    </script>
 </head>
 <body>
 
 	<!-- 引入header.jsp -->
 	<jsp:include page="./header.jsp"></jsp:include>
 
-	<div class="container"
-		style="width: 100%; background: url('image/regist_bg.jpg');">
+	<div class="container" style="width: 100%; background: url('image/regist_bg.jpg');">
 		<div class="row">
 			<div class="col-md-2"></div>
-			<div class="col-md-8"
-				style="background: #fff; padding: 40px 80px; margin: 30px; border: 7px solid #ccc;">
+			<div class="col-md-8" style="background: #fff; padding: 40px 80px; margin: 30px; border: 7px solid #ccc;">
 				<font>会员注册</font>USER REGISTER
 				<form id="myform" class="form-horizontal" action="${pageContext.request.contextPath}/register" method="post" style="margin-top: 5px;">
 					<div class="form-group">
@@ -191,7 +204,7 @@ font {
 
 					<div class="form-group">
 						<div class="col-sm-offset-2 col-sm-10">
-							<input type="submit" width="100" value="注册" name="submit"
+							<input type="button" id="button" width="100" value="注册" name="submit"
 								style="background: url('./images/register.gif') no-repeat scroll 0 0 rgba(0, 0, 0, 0); height: 35px; width: 100px; color: white;">
 						</div>
 					</div>

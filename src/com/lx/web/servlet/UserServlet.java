@@ -16,7 +16,7 @@ import com.lx.utils.MD5Utils;
 
 @WebServlet("/user")
 public class UserServlet extends BaseServlet {
-
+//用户注销
 	public void logout(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		HttpSession  session= request.getSession();
 		session.removeAttribute("user");
@@ -78,7 +78,7 @@ public class UserServlet extends BaseServlet {
 			//重定向到首页
 			response.sendRedirect(request.getContextPath()+"/product?method=index");
 		}else{
-			request.setAttribute("loginError", "用户名或密码错误");
+			request.setAttribute("loginInfo", "用户名或密码错误");
 			request.getRequestDispatcher("/login.jsp").forward(request, response);
 		}
 	}
