@@ -7,55 +7,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ac279d9-dcdc-47fc-80f9-13f9d0adad9d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/lx/doman/Condition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminSearchProductListServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/VerificationCodeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/WEB-INF/word/new_words.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery-1.11.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/js/jquery.validate.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/dao/AdminDao.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminAddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminAddProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminShowProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/AdminShowProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/admin/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/admin/product/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/admin/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/admin/product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/upload/0.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/upload/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/upload/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/upload/timg1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/upload/timg2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/dao/AdminDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/dao/AdminDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/dao/ProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/dao/ProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/service/AdminService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/service/AdminService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/service/ProductService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/service/impl/AdminServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/service/impl/AdminServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminAddProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminAddProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminShowProductServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/AdminShowProductServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/web/servlet/RegisterServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/RegisterServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/lx/web/servlet/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/lx/web/servlet/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/dao/AdminDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/dao/AdminDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/dao/ProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/AdminService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/AdminService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/impl/AdminServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/service/impl/AdminServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/AdminAddProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/AdminAddProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/AdminShowProductServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/AdminShowProductServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/UserServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/UserServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/product/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/product/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/admin/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/admin/product/list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/js/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/RegisterServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/RegisterServlet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/WEB-INF/classes/com/lx/web/servlet/RegisterServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/RegisterServlet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/RegisterServlet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/RegisterServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/classes/com/lx/web/servlet/RegisterServlet.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -87,8 +44,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/lx/dao/ProductDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+            <state relative-caret-position="640">
+              <caret line="116" column="76" lean-forward="true" selection-start-line="116" selection-start-column="76" selection-end-line="116" selection-end-column="76" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -284,9 +244,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="846" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
     <option name="width" value="1170" />
-    <option name="height" value="950" />
+    <option name="height" value="908" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -639,7 +600,7 @@
       <workItem from="1595994216628" duration="180000" />
       <workItem from="1595994435880" duration="11530000" />
       <workItem from="1596012607195" duration="13352000" />
-      <workItem from="1596068705451" duration="7162000" />
+      <workItem from="1596068705451" duration="8144000" />
     </task>
     <task id="LOCAL-00001" summary="阳光商城">
       <created>1595765505483</created>
@@ -662,11 +623,18 @@
       <option name="project" value="LOCAL" />
       <updated>1595854385990</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="后台搜索框，验证码以及校验以及上传文件的部分修改">
+      <created>1596076436118</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1596076436118</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="557634000" />
+    <option name="totallyTimeSpent" value="558616000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,7 +694,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="阳光商城" />
     <MESSAGE value="前台搜索框完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="前台搜索框完成" />
+    <MESSAGE value="后台搜索框，验证码以及校验以及上传文件的部分修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="后台搜索框，验证码以及校验以及上传文件的部分修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1107,8 +1076,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/lx/dao/ProductDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="4" column="46" lean-forward="true" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        <state relative-caret-position="640">
+          <caret line="116" column="76" lean-forward="true" selection-start-line="116" selection-start-column="76" selection-end-line="116" selection-end-column="76" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
