@@ -9,8 +9,8 @@
 <%--			.file{width: 1000px;height:100px;position:absolute;left: 2px;cursor:pointer;--%>
 <%--				border-color: orange;filter:alpha(opacity:0);opacity: 0}--%>
 <%--			.image{--%>
-				/*position:absolute;*/
-				/*	border-color: red;left: 2px}*/
+<%--				/*position:absolute;*/--%>
+<%--				/*	border-color: red;left: 2px}*/--%>
 <%--		</style>--%>
         <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.8.3.min.js"></script>
         <script type="text/javascript">
@@ -37,7 +37,6 @@
 		<form id="userAction_save_do" name="Form1" action="${pageContext.request.contextPath}/adminUpdateProduct" method="post" enctype="multipart/form-data">
 			
 			<table cellSpacing="1" cellPadding="5" width="100%" align="center" bgColor="#eeeeee" style="border: 1px solid #8ba7e3" border="0">
-
 				<tr>
 					<td class="ta_01" align="center" bgColor="#afd1f3" colSpan="4"
 						height="26">

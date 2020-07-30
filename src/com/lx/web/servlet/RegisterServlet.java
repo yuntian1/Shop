@@ -25,6 +25,16 @@ import java.util.Map;
 public class RegisterServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         request.setCharacterEncoding("UTF-8");
+        //获得用户输入的验证码
+        String checkCode_client = request.getParameter("checkCode");
+        //获得生成的验证码
+        String checkcode_session = (String) request.getSession().getAttribute("checkcode_session");
+        if(!checkcode_session.equals(checkCode_client)){
+            request.setAttribute("registerInfo", "输入验证码错误");
+            request.getRequestDispatcher("/register.jsp").forward(request, response);
+            return;
+        }
+
         //获得表单数据
         Map<String, String[]> properties = request.getParameterMap();
         User user = new User();

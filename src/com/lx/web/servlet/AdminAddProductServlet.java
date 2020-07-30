@@ -48,9 +48,10 @@ public class AdminAddProductServlet extends HttpServlet {
                     String fileName = item.getName();
                     InputStream in = item.getInputStream();
                     //String path = this.getServletContext().getRealPath("upload");
-                    File uploadPath = new File(this.getServletContext().getRealPath("upload"));
+                    File uploadPath = new File(this.getServletContext().getRealPath("/upload/0.jpg"));
                     if(!uploadPath.exists()){
-                        uploadPath.mkdir();
+                        uploadPath.getParentFile().mkdirs();
+
                     }
                     String path = this.getServletContext().getRealPath("upload");
                     OutputStream out = new FileOutputStream(path+"/"+fileName);

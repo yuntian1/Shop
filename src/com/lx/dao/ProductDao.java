@@ -1,11 +1,7 @@
 package com.lx.dao;
 
-import com.lx.doman.Category;
-import com.lx.doman.Order;
-import com.lx.doman.OrderItem;
-import com.lx.doman.Product;
+import com.lx.doman.*;
 import com.lx.utils.DataSourceUtils;
-import org.apache.catalina.tribes.group.interceptors.OrderInterceptor;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.*;
 
@@ -107,7 +103,7 @@ public class ProductDao {
     public List<Order> findAllOrders(String uid) throws SQLException {
         QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "select * from orders where uid=?";
-        List<Order> orderList = runner.query(sql,new BeanListHandler<Order>(Order.class),uid);
+        List<Order> orderList = runner.query(sql, new BeanListHandler<Order>(Order.class), uid);
         return orderList;
     }
 
@@ -121,15 +117,22 @@ public class ProductDao {
     public List<Object> findProductByWord(String word) throws SQLException {
         QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "select * from product where pname like ? limit 0,8";
-        List<Object> productList= (List<Object>) runner.query(sql, new ColumnListHandler("pname"),"%"+word+"%");
+        List<Object> productList = (List<Object>) runner.query(sql, new ColumnListHandler("pname"), "%" + word + "%");
         return productList;
     }
 
     public Product findProductByPname(String pname) throws SQLException {
         QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
         String sql = "select * from product where pname=?";
-        Product product= runner.query(sql, new BeanHandler<Product>(Product.class), pname);
+        Product product = runner.query(sql, new BeanHandler<Product>(Product.class), pname);
         return product;
+    }
+
+    public List<ProductVo> findAllProduct() throws SQLException {
+        QueryRunner runner = new QueryRunner(DataSourceUtils.getDataSource());
+        String sql = "select * from product";
+        List<ProductVo> query = runner.query(sql, new BeanListHandler<ProductVo>(ProductVo.class));
+        return query;
     }
 }
 

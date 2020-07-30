@@ -76,11 +76,11 @@ font {
 						<div class="form-group">
 							<label for="identifyCode" class="col-sm-2 control-label">验证码</label>
 							<div class="col-sm-3">
-								<input type="text" class="form-control" id="identifyCode" name="identifyCode"
+								<input type="text" class="form-control" id="identifyCode" name="checkcode_session"
 									placeholder="请输入验证码">
 							</div>
 							<div class="col-sm-3">
-								<img src="./image/captcha.jhtml" />
+								<img src="${pageContext.request.contextPath}/verificationCode" />
 							</div>
 						</div>
 						<div class="form-group">

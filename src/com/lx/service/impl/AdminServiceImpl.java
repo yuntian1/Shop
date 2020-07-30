@@ -120,6 +120,18 @@ public class AdminServiceImpl implements AdminService {
     }
 
     @Override
+    public List<ProductVo> findProductListByCondition(Condition con) {
+        AdminDao dao = new AdminDao();
+        List<ProductVo> productList= null;
+        try {
+            productList = dao.findProductListByCondition(con);
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return productList;
+    }
+
+    @Override
     public void saveCategory(String cid, String cname) {
         AdminDao dao =new AdminDao();
         try {

@@ -34,6 +34,15 @@ public class UserServlet extends BaseServlet {
 	//用户登录
 	public void login(HttpServletRequest request, HttpServletResponse response) throws IOException, ServletException {
 		request.setCharacterEncoding("UTF-8");
+		//得到用户输入的验证码
+		String checkcode_client = request.getParameter("checkcode_session");
+		//得到验证码
+		String checkcode_session = (String) request.getSession().getAttribute("checkcode_session");
+		if(!checkcode_session.equals(checkcode_client)){
+			request.setAttribute("loginInfo", "您的验证码不正确");
+			request.getRequestDispatcher("/login.jsp").forward(request, response);
+			return;
+		}
 		HttpSession session = request.getSession();
 
 		//获得输入的用户名和密码

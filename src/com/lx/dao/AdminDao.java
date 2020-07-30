@@ -1,9 +1,6 @@
 package com.lx.dao;
 
-        import com.lx.doman.Category;
-        import com.lx.doman.Order;
-        import com.lx.doman.Product;
-        import com.lx.doman.ProductVo;
+        import com.lx.doman.*;
         import com.lx.utils.DataSourceUtils;
         import org.apache.commons.dbutils.QueryRunner;
         import org.apache.commons.dbutils.handlers.BeanHandler;
@@ -12,6 +9,7 @@ package com.lx.dao;
         import org.apache.commons.dbutils.handlers.ScalarHandler;
 
         import java.sql.SQLException;
+        import java.util.ArrayList;
         import java.util.List;
         import java.util.Map;
 public class AdminDao {
@@ -113,6 +111,27 @@ public class AdminDao {
         runner.update(sql,cname,cid);
 
     }
+
+    public List<ProductVo> findProductListByCondition(Condition con) throws SQLException {
+        QueryRunner runner =new QueryRunner(DataSourceUtils.getDataSource());
+        List<String> list =new ArrayList<String>();
+        String sql="select * from  product where 1=1 ";
+        if(con.getPname()!=null&&!con.getPname().trim().equals("")){
+           sql+=" and pname like ? ";
+           list.add("%"+con.getPname().trim()+"%");
+        } if(con.getIs_hot()!=null&&!con.getIs_hot().trim().equals("")){
+           sql+=" and is_hot=? ";
+           list.add(con.getIs_hot().trim());
+        }
+        if(con.getCid()!=null&&!con.getCid().trim().equals("")){
+           sql+=" and cid=? ";
+           list.add(con.getCid().trim());
+        }
+        List<ProductVo> query = runner.query(sql, new BeanListHandler<ProductVo>(ProductVo.class), list.toArray());
+        return query;
+    }
+
+
 }
 
 

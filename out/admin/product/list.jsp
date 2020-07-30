@@ -1,5 +1,5 @@
 <%@ page language="java" pageEncoding="UTF-8" %>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <HTML>
 <HEAD>
     <meta http-equiv="Content-Language" content="zh-cn">
@@ -17,19 +17,41 @@
     <script type="text/javascript">
         function delProduct(pid) {
             var isDel = confirm("你确定要删除吗");
-            if(isDel){
-                location.href="${pageContext.request.contextPath}/delProduct?pid="+pid;
+            if (isDel) {
+                location.href = "${pageContext.request.contextPath}/delProduct?pid=" + pid;
             }
         }
+        $(function(){
+            $("#cid option[value='${con.is_hot}']").prop("selected",true);
+            $("#cid option[value='${con.cid}']").prop("selected",true);
+        });
     </script>
-
 </HEAD>
 <body>
 <br>
-<form id="Form1" name="Form1"
-<%--      action="${pageContext.request.contextPath}/user/list.jsp"--%>
-        action="#"
+<form id="Form1" name="Form1" action="${pageContext.request.contextPath}/adminSearchProductList"
       method="post">
+    <table cellSpacing="1" cellPadding="0" width="100%" align="center"
+           bgColor="#f5fafe" border="0">
+        <tr>
+            <td align="center">
+                商品名称：<input type="text" name="pname" value="${con.pname}"/>&nbsp;&nbsp;&nbsp;
+                是否热门：<select id="is_hot" name="is_hot">
+                        <option value="">不限</option>
+                        <option value="0">否</option>
+                        <option value="1">是</option>
+                        </select>&nbsp;&nbsp;&nbsp;
+                商品类别：<select id="cid" name="cid">
+                <option value="">不限</option>
+                <c:forEach items="${categoryList}" var="category">
+                        <option value="${category.cid}">${category.cname}</option>
+                </c:forEach>
+            </select>&nbsp;&nbsp;&nbsp;
+                <input type="submit" value="搜索"/>
+            </td>
+        </tr>
+    </table>
+
     <table cellSpacing="1" cellPadding="0" width="100%" align="center"
            bgColor="#f5fafe" border="0">
         <TBODY>
@@ -62,9 +84,9 @@
                         <td width="7%" align="center">编辑</td>
                         <td width="7%" align="center">删除</td>
                     </tr>
-                        <c:forEach items="${pageBean.list}" var="pro" varStatus="vs">
+                    <c:forEach items="${productList}" var="pro" varStatus="vs">
                         <tr onmouseover="this.style.backgroundColor = 'white'"
-                        onmouseout="this.style.backgroundColor = '#F5FAFE';">
+                            onmouseout="this.style.backgroundColor = '#F5FAFE';">
                             <td style="CURSOR: hand; HEIGHT: 22px" align="center"
                                 width="18%">${vs.count}
                             </td>
@@ -79,9 +101,9 @@
                             </td>
                             <td align="center" style="HEIGHT: 22px">
                                 <a href="${ pageContext.request.contextPath }/adminProductEdit?pid=${pro.pid}">
-                                <img src="${pageContext.request.contextPath}/images/i_edit.gif"
-                                     border="0" style="CURSOR: hand">
-                            </a>
+                                    <img src="${pageContext.request.contextPath}/images/i_edit.gif"
+                                         border="0" style="CURSOR: hand">
+                                </a>
                             </td>
                             <td align="center" style="HEIGHT: 22px">
                                 <a href="javascript:void(0);" onclick="delProduct('${pro.pid}')">
@@ -90,60 +112,9 @@
                                 </a>
                             </td>
                         </tr>
-                        </c:forEach>
-
-                </table>
-            </td>
-        </tr>
-        <tr align="center">
-            <td>
-
-                <ul class="pagination" style="text-align: center; margin-top: 10px;">
-                    <%-- 上一页--%>
-                    <c:if test="${pageBean.currentPage==1}">
-                    <li class="disabled">
-                        <a href="javascript:void(0)" aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                        </a>
-                    </li>
-                    </c:if>
-                    <c:if test="${pageBean.currentPage!=1}">
-                    <li>
-                        <a href="${pageContext.request.contextPath}/adminShowProduct?currentPage=${pageBean.currentPage-1}"
-                           aria-label="Previous">
-                            <span aria-hidden="true">&laquo;</span>
-                        </a>
-                    </li>
-                    </c:if>
-                    <%--                显示每一页--%>
-                    <c:forEach begin="1" end="${pageBean.totalPage}" var="page">
-                        <%--				判断是否是当前页--%>
-                    <c:if test="${page==pageBean.currentPage}">
-                    <li class="active"><a href="javascript:void(0)">${page}</a></li>
-                    </c:if>
-                    <c:if test="${page!=pageBean.currentPage}">
-                    <li>
-                        <a href="${pageContext.request.contextPath}/adminShowProduct?currentPage=${page}">${page}</a>
-                    </li>
-                    </c:if>
                     </c:forEach>
 
-                    <%--    下一页--%>
-                    <c:if test="${pageBean.currentPage==pageBean.totalPage}">
-                    <li class="disabled">
-                        <a href="javascript:void(0);" aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                        </a>
-                    </li>
-                    </c:if>
-                    <c:if test="${pageBean.currentPage!=pageBean.totalPage}">
-                    <li>
-                        <a href="${pageContext.request.contextPath}/adminShowProduct?currentPage=${pageBean.currentPage+1}"
-                           aria-label="Next">
-                            <span aria-hidden="true">&raquo;</span>
-                        </a>
-                    </li>
-                    </c:if>
+                </table>
             </td>
         </tr>
         </TBODY>

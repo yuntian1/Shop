@@ -35,4 +35,5 @@ public interface AdminService {
 
     public void saveCategory(String cid, String cname);
 
+    public List<ProductVo> findProductListByCondition(Condition con);
 }

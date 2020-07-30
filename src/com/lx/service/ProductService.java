@@ -196,6 +196,17 @@ public class ProductService {
         }
         return product;
     }
+
+    public List<ProductVo> findAllProduct() {
+        ProductDao dao = new ProductDao();
+        List<ProductVo> productList = null;
+        try {
+            productList = dao.findAllProduct();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return productList;
+    }
 }
 
 
