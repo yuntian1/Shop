@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/bootstrap.min.css" type="text/css"/>
     <link href="${pageContext.request.contextPath}/css/Style1.css"
           rel="stylesheet" type="text/css"/>
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/jquery-1.8.3.min.js"></script>
     <script language="javascript"
             src="${pageContext.request.contextPath}/js/public.js"></script>
     <script type="text/javascript">
@@ -22,7 +23,7 @@
             }
         }
         $(function(){
-            $("#cid option[value='${con.is_hot}']").prop("selected",true);
+            $("#is_hot option[value='${con.is_hot}']").prop("selected",true);
             $("#cid option[value='${con.cid}']").prop("selected",true);
         });
     </script>

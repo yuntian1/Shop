@@ -76,7 +76,7 @@
 					<div class="form-group" style="position: relative;">
                         <input type="hidden" name="method" value="productSearch">
 						<input id="search" name="searchname" type="text" class="form-control" placeholder="Search" onkeyup="searchWord(this)">
-                        <div id="showDiv" style="display:none;position:absolute; z-index:1000; background-color:#fff;width:206px;border:1px solid #ccc;"></div>
+                        <div id="showDiv" style="display:none;position:absolute;z-index:1000; background-color:#fff;width:206px;border:1px solid #ccc;"></div>
 					</div>
 					<button type="submit" class="btn btn-default">Submit</button>
 				</form>
@@ -102,6 +102,7 @@
                         var content = "";
                         $("#showDiv").html("");
                         $.post(
+								// 2.根据输入框的内容去数据库中模糊查询list<product>
                             "${pageContext.request.contextPath}/searchWord",
                             {"word":word},
                             function (data) {
@@ -119,7 +120,7 @@
                             "json"
                         );
 
-                        // 2.根据输入框的内容去数据库中模糊查询list<product>
+
                     }
                 </script>
 

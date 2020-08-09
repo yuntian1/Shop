@@ -38,8 +38,6 @@ font {
 </style>
 
 <script type="text/javascript">
-
-
 	//自定义校验规则
 	$.validator.addMethod(
 			//规则名称
@@ -140,7 +138,7 @@ font {
 <body>
 
 	<!-- 引入header.jsp -->
-	<jsp:include page="./header.jsp"></jsp:include>
+	<jsp:include page="/header.jsp"></jsp:include>
 
 	<div class="container"
 		style="width: 100%; background: url('image/regist_bg.jpg');">
@@ -233,7 +231,7 @@ font {
 		</div>
 	</div>
 	<!-- 引入footer.jsp -->
-	<jsp:include page="./footer.jsp"></jsp:include>
+	<jsp:include page="/footer.jsp"></jsp:include>
 
 </body>
 </html>
